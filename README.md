@@ -13,19 +13,19 @@ pip install scanpy
 If you want to use PyPI only or having trouble installing Miniconda on Linux or Mac, please refer to this website : https://scanpy.readthedocs.io/en/stable/installation.html .
 
 Next step is to install shiny :
-pip install shiny
+`pip install shiny`
 
 
 ## Dataset Prepapration
-To use the dataset, you need to do a preprocessing step on your data, so it comes as an anndata object with x,y,z precalculated features.
+To use the dataset, you need to do a preprocessing step on your data, so it comes as an anndata object with all attributes required by the app. You can follow the file `preprocessing_clustering.py` to produce this anndata object, or alternatively you need to provide an object which already contains all of the following attributes: __PLEASE ADD__
 
-If you are using scanpy with anndata, please follow the following tutorials on scanpy :
+The following tutorials on scanpy can be helpful:
 -	Preprocessing and clustering 3k PBMCs (legacy workflow) : https://scanpy.readthedocs.io/en/stable/tutorials/basics/clustering-2017.html 
--	Core plotting functions : https://scanpy.readthedocs.io/en/stable/tutorials/plotting/core.html  
+-	Core plotting functions : https://scanpy.readthedocs.io/en/stable/tutorials/plotting/core.html 
 
 
 ## Interaction between different files
-The file named “app” is the source code of the app. The file named “preprocessing_clustering” is the preprocessing and clustering tutorial. This file is useful because it provides the adata object the necessary information for the application.
+The file named “app” is the source code of the app. 
 
 The file named “core_plotting_function” is the core plotting function tutorial.
 
