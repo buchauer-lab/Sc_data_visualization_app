@@ -25,7 +25,7 @@ The following tutorials on scanpy can be helpful:
 
 
 ## Interaction between different files
-The file named “app” is the source code of the app. 
+The file named “app” is the source code of the app. At the top of the file, the single cell data is loaded and some relevant marker genes are defined. Afterwards, some plotting functionality around volcano plots is defined (because this does not come as an inbuilt plotting capability of scanpy), and after this, the code body of the shiny application begins. The code is structureds into several blocks, all labeled with comments, each concerned with a specific panel (or "card"), and a final block for server interactions.
 
 The file named “core_plotting_function” is the core plotting function tutorial.
 
