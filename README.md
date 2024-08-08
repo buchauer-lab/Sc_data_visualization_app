@@ -34,6 +34,11 @@ The file named “core_plotting_function” is the core plotting function tutori
 ## Contribution :
 Code contribution is welcomed especially if you know how to code the download buttons. I couldn’t figure out how to do it. Shiny documentation is available about download buttons (https://shiny.posit.co/py/api/core/ui.download_button.html#shiny.ui.download_button ).
 
+Purpose of Download buttons : 
+"Download table of downregulated genes" : " table in CSV format should be downloadable when the button is clicked. It contains the name, fold change value, and p-value of all the genes that appear in blue on the chart.
+
+"Download table of upregulated genes" : " table in CSV format should be downloadable when the button is clicked. It contains the name, fold change value, and p-value of all the genes that appear in red on the chart.
+
 ## License
 
 Scanpy :
