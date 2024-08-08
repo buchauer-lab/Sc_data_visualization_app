@@ -25,8 +25,10 @@ If you are using scanpy with anndata, please follow the following tutorials on s
 
 
 ## Interaction between different files
-The file named “app” is the source code of the app. The file named “dataset” is the preprocessing and clustering tutorial. This file is useful because it provides the adata object the necessary information for the application.
-The file named “pmbcdataset” is the core plotting function tutorial. The other files are tests to help me creating the app.
+The file named “app” is the source code of the app. The file named “preprocessing_clustering” is the preprocessing and clustering tutorial. This file is useful because it provides the adata object the necessary information for the application.
+
+The file named “core_plotting_function” is the core plotting function tutorial.
+
 
 
 ## Contribution :
